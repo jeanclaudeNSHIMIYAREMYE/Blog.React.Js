@@ -1,0 +1,60 @@
+/* Container principal */
+.home {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+/* Liste des blogs */
+.bloglist {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Carte blog */
+.blog {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.blog:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Titre */
+.blog-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1e3c72;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.blog-title:hover {
+  color: #2a5298;
+}
+
+/* Auteur */
+.blog-publication-date {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Date */
+.date {
+  font-size: 13px;
+  color: #888;
+}
